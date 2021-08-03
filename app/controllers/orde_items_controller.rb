@@ -1,2 +1,0 @@
-class OrdeItemsController < ApplicationController
-end
