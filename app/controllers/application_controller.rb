@@ -7,5 +7,4 @@ class ApplicationController < ActionController::API
                 Order.new
             end
         end
-    end
 end

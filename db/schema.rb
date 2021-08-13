@@ -20,6 +20,8 @@ ActiveRecord::Schema.define(version: 2021_08_03_150435) do
     t.string "image"
     t.decimal "price"
     t.text "description"
+    t.integer "rating"
+    t.string "comment"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
